@@ -1,0 +1,10 @@
+.navbarContainer {
+  font-size: 1.5rem;
+  padding: 24px;
+  color: rgb(19, 178, 210);
+  border-bottom: 1px solid black;
+}
+
+.navbarContainer h1 {
+  font-weight: 600;
+}

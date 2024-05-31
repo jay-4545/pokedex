@@ -1,0 +1,9 @@
+.tag {
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  display: inline-block;
+  padding: 6px 12px;
+  color: black;
+}

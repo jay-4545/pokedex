@@ -1,0 +1,47 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(117, 210, 229);
+  /* background-color: #eeeeeec9; */
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 18px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(57, 174, 197);
+  border-radius: 14px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.imgContainer img:hover {
+  scale: 1.1;
+  transition: all 0.5s ease;
+}
+
+.imgContainer img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.nameNumber {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  font-size: 1.225rem;
+}
+
+.tagContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

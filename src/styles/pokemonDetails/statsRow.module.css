@@ -1,0 +1,27 @@
+.containnerMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  gap: 32px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerInner {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+}
+
+.typeContainer div {
+  margin-top: 10px;
+}
+
+.weaknessContainer div {
+  margin-top: 10px;
+}

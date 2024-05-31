@@ -1,0 +1,50 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgContainer img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.infoContainer {
+  margin-right: 100px;
+}
+
+.desc {
+  font-size: 1.25rem;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  padding: 16px;
+  background-color: rgb(57, 174, 197);
+  font-size: 1.25rem;
+  border-radius: 16px;
+}
+
+.tableContainer tr td {
+  padding: 32px;
+}
+
+.tableContainer tr td p {
+  text-align: center;
+  padding: 8px;
+}
+
+.tableContainer tr td p:last-child {
+  color: white;
+}

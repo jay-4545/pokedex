@@ -1,0 +1,15 @@
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+.titleContainer p {
+  font-size: 2rem;
+}
+
+.number {
+  color: rgb(57, 174, 197);
+}

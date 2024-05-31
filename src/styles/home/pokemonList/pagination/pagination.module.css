@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+  padding-top: 20px;
+}
+
+.container button {
+  padding: 12px;
+  font-size: 1rem;
+  width: 102px;
+}
