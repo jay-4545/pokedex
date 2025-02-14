@@ -25,7 +25,7 @@ function Searchbar(props) {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} flex-wrap`}>
       <div>
         <input
           type="text"
@@ -37,7 +37,9 @@ function Searchbar(props) {
           <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>
-      <p>Search for a Pokémon by name or using its National Pokédex number.</p>
+      <p className="text-center">
+        Search for a Pokémon by name or using its National Pokédex number.
+      </p>
     </div>
   );
 }

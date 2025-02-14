@@ -41,7 +41,7 @@ function StatsRow(props) {
   if (!pokemon) return null;
 
   return (
-    <div className={styles.containnerMain}>
+    <div className={`${styles.containnerMain} grid-cols-1 lg:grid-cols-2 `}>
       <div className={styles.stats}>
         <CanvasJSChart options={options} />
       </div>

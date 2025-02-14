@@ -12,8 +12,6 @@ function PokemonDetails() {
   const params = useParams();
   const [pokemon, setPokemon] = useState(null);
 
-  console.log(pokemon);
-
   useEffect(() => {
     getSearchPokemon(params.name)
       .then((data) => {

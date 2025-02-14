@@ -19,19 +19,19 @@ function InfoRow(props) {
     });
   }, [pokemon?.species?.url]);
 
-  console.log("first", speciesDetails);
-
   if (!pokemon) return null;
   return (
-    <div className={styles.mainContainer}>
+    <div className={`${styles.mainContainer} grid grid-cols-1 lg:grid-cols-2`}>
       <div className={styles.imgContainer}>
         <img src={getPokemonImage(pokemon)} alt="" />
       </div>
       <div className={styles.infoContainer}>
-        <div className={styles.desc}>
+        <div className={`${styles.desc}`}>
           <p>{pokemonDataDesc(speciesDetails?.flavor_text_entries)}</p>
         </div>
-        <div className={styles.tableContainer}>
+        <div
+          className={`${styles.tableContainer} flex-wrap md:mr-[100px] mr-0 w-full`}
+        >
           <tr>
             <td>
               <p>Weight</p>

@@ -10,9 +10,11 @@ function SearchPokemon(props) {
     setSearch(null);
   }
   return (
-    <div className={styles.container}>
+    <div
+      className={`${styles.container} flex flex-col w-full mx-auto justify-center md:items-start items-center p-8 gap-8`}
+    >
       <PokemonCard pokemon={pokemon} />
-      <div className={styles.btn} onClick={goBack}>
+      <div className={`${styles.btn} md:ml-24 ml-0`} onClick={goBack}>
         <button>Go Back</button>
       </div>
     </div>

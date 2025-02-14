@@ -1,6 +1,4 @@
 .mainContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 32px;
 }
 
@@ -15,10 +13,6 @@
   width: 400px;
   height: 400px;
   object-fit: contain;
-}
-
-.infoContainer {
-  margin-right: 100px;
 }
 
 .desc {

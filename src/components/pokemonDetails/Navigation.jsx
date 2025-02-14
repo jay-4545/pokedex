@@ -22,7 +22,7 @@ function Navigation({ pokemon, setPokemon }) {
   }
 
   function handleGoBack() {
-    navigate(-1);
+    navigate("/");
   }
 
   function handleNext() {
@@ -45,7 +45,7 @@ function Navigation({ pokemon, setPokemon }) {
     }
   }
   return (
-    <div className={styles.btnContainer}>
+    <div className={`${styles.btnContainer} md:gap-0 gap-4 md:p-0 p-2`}>
       <button onClick={handlePrev}>Prev</button>
       <button onClick={handleGoBack}>Go Back</button>
       <button onClick={handleNext}>Next</button>
